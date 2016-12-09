@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PAW_OpenCV", "PAW_OpenCV\PAW_OpenCV.vcxproj", "{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E9990B5-2837-44FA-BAE2-A0AAC28EC5F4}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Debug|Win32.Build.0 = Debug|Win32
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Debug|x64.ActiveCfg = Debug|x64
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Debug|x64.Build.0 = Debug|x64
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Release|Win32.ActiveCfg = Release|Win32
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Release|Win32.Build.0 = Release|Win32
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Release|x64.ActiveCfg = Release|x64
+		{0060B1A5-D75F-45A6-8F51-0FE9FAC59A1E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

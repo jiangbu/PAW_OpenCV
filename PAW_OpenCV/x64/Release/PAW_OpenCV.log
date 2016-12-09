@@ -1,0 +1,77 @@
+﻿Build started 11/3/2015 02:02:02.
+     1>Project "D:\Copy\08 Visual Studio Projects\PAW_OpenCV\PAW_OpenCV\PAW_OpenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV\build\install\include /I"D:\Program Files\MATLAB\R2014b\extern\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt PAW.cpp TIE.cpp convCUDA2.cpp dataRead.cpp dataSave.cpp main.cpp readRegVal.cpp shift.cpp shiftCUDA.cpp
+         PAW.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>PAW.cpp(18): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(19): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(73): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(74): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(75): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(76): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(120): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(122): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>PAW.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         TIE.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>TIE.cpp(47): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>TIE.cpp(48): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>TIE.cpp(73): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TIE.cpp(75): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TIE.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TIE.cpp(88): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TIE.cpp(89): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>TIE.cpp(101): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>TIE.cpp(135): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>TIE.cpp(137): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>TIE.cpp(166): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         convCUDA2.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         dataRead.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>dataRead.cpp(12): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>dataRead.cpp(13): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         dataSave.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         main.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         readRegVal.cpp
+         shift.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>shift.cpp(9): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         shiftCUDA.cpp
+     1>D:\OpenCV\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\OpenCV\build\install\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>shiftCUDA.cpp(10): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Copy\08 Visual Studio Projects\PAW_OpenCV\x64\Release\PAW_OpenCV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\OpenCV\build\install\x64\vc12\lib /LIBPATH:"D:\Program Files\MATLAB\R2014b\extern\lib\win64\microsoft" opencv_calib3d300.lib opencv_core300.lib opencv_cudaarithm300.lib opencv_cudabgsegm300.lib opencv_cudacodec300.lib libmat.lib libmx.lib libmex.lib libeng.lib opencv_cudafeatures2d300.lib opencv_cudafilters300.lib opencv_cudaimgproc300.lib opencv_cudalegacy300.lib opencv_cudaobjdetect300.lib opencv_cudaoptflow300.lib opencv_cudastereo300.lib opencv_cudawarping300.lib opencv_cudev300.lib opencv_features2d300.lib opencv_flann300.lib opencv_hal300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_ts300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Copy\08 Visual Studio Projects\PAW_OpenCV\x64\Release\PAW_OpenCV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Copy\08 Visual Studio Projects\PAW_OpenCV\x64\Release\PAW_OpenCV.lib" /MACHINE:X64 x64\Release\convCUDA2.obj
+         x64\Release\dataRead.obj
+         x64\Release\dataSave.obj
+         x64\Release\main.obj
+         x64\Release\PAW.obj
+         x64\Release\readRegVal.obj
+         x64\Release\shift.obj
+         x64\Release\shiftCUDA.obj
+         x64\Release\TIE.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'opencv_calib3d300.lib'
+     1>Done Building Project "D:\Copy\08 Visual Studio Projects\PAW_OpenCV\PAW_OpenCV\PAW_OpenCV.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.12
